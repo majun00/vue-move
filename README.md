@@ -9,7 +9,7 @@
 `npm install vue-move`
 
 # 引入
-`import vueMove from './lib/index.js'`
+`import vueMove from 'vue-move'`
 `Vue.use(vueMove)`
 
 # 使用

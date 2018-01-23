@@ -4,4 +4,7 @@ const move = {
     Vue.component(vueMove.name, vueMove)
   }
 }
+if (typeof window !== 'undefined' && window.vue) {
+  window.Vue.use(move)
+}
 export default move
